@@ -29,19 +29,19 @@ Exercise Two
 Determining a color
 */
 
-let color = blue;
-// 1. Pick either "blue", "red", or "green" and assign it to the color variable.
 
+// 1. Pick either "blue", "red", or "green" and assign it to the color variable.
+let color = blue;
 // 2. Create an if statement, if the color is "blue", then log "The sky is blue." using console.log
-if (color = blue) {
+if (color === blue) {
   console.log("The sky is blue.")
 }
 // 3. Create an else if statement, and if the color is "red" then log "The flower is red."
-else if (color = red) {
+else if (color === red) {
   console.log('The flower is red.')
 }
 // 4. create another else if statement where if the color is "green" then log "The Leaf is green."
-else if (color = green) {
+else if (color === green) {
   console.log('The leaf is green.')
 }
 // 5. Finally, create an else statement and log "It is a different color".
@@ -70,11 +70,11 @@ Hint Two: You can either do this with nested if statements, or you can do it wit
 a chain of if else statements, some of those just might need multiple conditions (like: if (a && b) )
 */
 
-let number = 5;
+
 // Your code here.
 const answer = number > 10 ? "greater than 10" : number < 20 ?  "Between 10 and 20!"
 
-if (number >= 20) {
+if ('number >= 20') {
   console.log('20 or greater!')
 }
 if (number = 16) {
